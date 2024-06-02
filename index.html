@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+      <form id="todo-form">
+        <input type="text" placeholder="텍스트를 입력하세요." required />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+
+    <div class="box2">
+      <h1 class="clock__title">TIME</h1>
+      <h2 id="clock">00:00</h2>
+
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+
+      <span class="hello">Hello</span>
+      <span class="nickname-box"></span>
+      <form class="hidden" id="login-form">
+        <input
+          type="text"
+          maxlength="15"
+          required
+          placeholder="이름을 입력하세요"
+          class="nickname"
+        />
+      </form>
+
+      <h1 id="greeting" class="hidden"></h1>
+    </div>
+
+    <!-- <div id="quote">
+        <span></span>
+        <span></span>
+    </div> -->
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <!-- <script src="js/quotes.js"></script> -->
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
